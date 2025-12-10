@@ -5,14 +5,14 @@ import baseApiUrl from "@/utils/baseApiUrl";
 
 const GetStarted = () => {
   const [getStarted, setGetStarted] = React.useState();
-  React.useEffect(() => {
-    const getGetStarted = async () => {
-      const response = await axios.get(`${baseApiUrl}/api/let-s-get-started`);
-      setGetStarted(response.data);
-      // console.log(response.data)
-    };
-    getGetStarted();
-  }, []);
+  // React.useEffect(() => {
+  //   const getGetStarted = async () => {
+  //     const response = await axios.get(`${baseApiUrl}/api/let-s-get-started`);
+  //     setGetStarted(response.data);
+  //     // console.log(response.data)
+  //   };
+  //   getGetStarted();
+  // }, []);
 
   return (
     <>
